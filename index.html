@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Slide in menu</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <nav>
         <a href="#">
@@ -19,21 +21,24 @@
             <aside>02</aside>
             <article>
                 <h3>What we do</h3>
-                <p class="desc">Sunt saepe vel mollitia, ab maxime fugit temporibus, fuga reprehenderit id quisquam nostrum eveniet, esse.</p>
+                <p class="desc">Sunt saepe vel mollitia, ab maxime fugit temporibus, fuga reprehenderit id quisquam
+                    nostrum eveniet, esse.</p>
             </article>
         </a>
         <a href="#">
             <aside>03</aside>
             <article>
                 <h3>Who we are</h3>
-                <p class="desc">Nobis magnam beatae quibusdam sapiente quisquam libero tenetur alias corrupti aliquid? Optio tenetur obcaecati doloribus beatae.</p>
+                <p class="desc">Nobis magnam beatae quibusdam sapiente quisquam libero tenetur alias corrupti aliquid?
+                    Optio tenetur obcaecati doloribus beatae.</p>
             </article>
         </a>
         <a href="#">
             <aside>04</aside>
             <article>
                 <h3>Contact</h3>
-                <p class="desc">Nulla numquam, animi dolorum atque expedita odio aliquam quidem officiis? Molestias voluptatum quasi debitis.</p>
+                <p class="desc">Nulla numquam, animi dolorum atque expedita odio aliquam quidem officiis? Molestias
+                    voluptatum quasi debitis.</p>
             </article>
         </a>
     </nav>
@@ -42,17 +47,5 @@
     <h2>Toggle the red button in the upper left corner</h2>
 </body>
 
-<script>
-    var toggle = document.querySelector('.toggle');
-        toggle.addEventListener('click', (e) => {
-            openNavigation()
-        });
-
-    function openNavigation() {
-        let nav = document.querySelector('nav');
-        nav.classList.toggle('open');
-    }
-
-</script>
-
+<script src="./js/script.js"></script>
 </html>
