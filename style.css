@@ -39,6 +39,11 @@ nav {
     color: white;
     max-width: 24rem;
     padding: 8rem 3rem 0 2rem;
+    transform: translateX(-100%);
+}
+
+nav.open {
+    transform: translateX(0);
 }
 
 nav a {

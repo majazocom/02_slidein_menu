@@ -41,4 +41,18 @@
     <h1>Hello there</h1>
     <h2>Toggle the red button in the upper left corner</h2>
 </body>
+
+<script>
+    var toggle = document.querySelector('.toggle');
+        toggle.addEventListener('click', (e) => {
+            openNavigation()
+        });
+
+    function openNavigation() {
+        let nav = document.querySelector('nav');
+        nav.classList.toggle('open');
+    }
+
+</script>
+
 </html>
